@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gayatri Jewellers</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body onload="slider()">
+    <div class="banner">
+      <div class="slider">
+        <img src="./images/main1.jpg" id="slideimg" />
+      </div>
+
+      <header class="header">
+        <div class="container">
+          <div class="header-main">
+            <div class="logo">
+              <a href="index.html"
+                ><img
+                  src="./images/logo6.png"
+                  alt="PDC IMPORT EXPORT PVT LTD Logo"
+              /></a>
+            </div>
+
+            <div class="open-nav-menu">
+              <span></span>
+            </div>
+            <div class="menu-overlay"></div>
+            <!--           ............................................ navigation menu start -->
+            <nav>
+              <div class="nav-menu">
+                <div class="close-nav-menu">
+                  <img src="images/close.svg" alt="close" />
+                </div>
+                <ul class="menu">
+                  <li class="menu-item">
+                    <a href="#">HOME</a>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="#">ABOUT</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">SERVICES</a>
+                  </li>
+                  <li class="menu-item menu-item-has-children">
+                    <a href="#" data-toggle="sub-menu"
+                      >PRODUCT <i class="plus"></i
+                    ></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="#">PRODUCT 1</a></li>
+                      <li class="menu-item"><a href="#">PRODUCT 2</a></li>
+                      <li class="menu-item"><a href="#">PRODUCT 3</a></li>
+                      <li class="menu-item"><a href="#">PRODUCT 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item menu-item-has-children">
+                    <a href="#" data-toggle="sub-menu"
+                      >CATEGORY <i class="plus"></i
+                    ></a>
+                    <ul class="sub-menu">
+                      <li class="menu-item"><a href="#">CATEGORY 1</a></li>
+                      <li class="menu-item"><a href="#">CATEGORY 2</a></li>
+                      <li class="menu-item"><a href="#">CATEGORY 3</a></li>
+                      <li class="menu-item"><a href="#">CATEGORY 4</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="menu-item">
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="text-box">
+          <h1>Gayatri Jewellers</h1>
+          <p>
+            Wel-Come to Gayatri Jewellers
+            <br />
+            "Celebrate Life's Milestones with Gleaming Grace"
+          </p>
+          <div>
+            <button type="button" onclick="location.href ='about.html'">
+              <span></span>Vist Us To Know More
+            </button>
+          </div>
+        </div>
+      </header>
+      <script>
+        var slideimg = document.getElementById("slideimg");
+        var images = new Array(
+          "images/main1.jpg",
+          "images/main2.jpg",
+          "images/main3.jpg",
+          "images/main4.jpg",
+          "images/main5.jpg",
+          "images/main6.jpg",
+          "images/main7.jpg"
+        );
+        var len = images.length;
+        var i = 0;
+        function slider() {
+          if (i > len - 1) {
+            i = 0;
+          }
+          slideimg.src = images[i];
+          i++;
+          setTimeout("slider()", 3000);
+        }
+      </script>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</head>
+<body onload="slider()">
+  <div class="banner">
+    <div class="slider">
+      <img src="./images/main1.jpg" id="slideimg" />
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <div class="logo">
+            <a href="index.html"
+              ><img
+                src="./images/logo6.png"
+                alt="PDC IMPORT EXPORT PVT LTD Logo"
+            /></a>
+          </div>
+
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+          <div class="menu-overlay"></div>
+          <!--           ............................................ navigation menu start -->
+          <nav>
+            <div class="nav-menu">
+              <div class="close-nav-menu">
+                <img src="images/close.svg" alt="close" />
+              </div>
+              <ul class="menu">
+                <li class="menu-item">
+                  <a href="#">HOME</a>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#">ABOUT</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#">SERVICES</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" data-toggle="sub-menu"
+                    >PRODUCT <i class="plus"></i
+                  ></a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">PRODUCT 1</a></li>
+                    <li class="menu-item"><a href="#">PRODUCT 2</a></li>
+                    <li class="menu-item"><a href="#">PRODUCT 3</a></li>
+                    <li class="menu-item"><a href="#">PRODUCT 4</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#" data-toggle="sub-menu"
+                    >CATEGORY <i class="plus"></i
+                  ></a>
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="#">CATEGORY 1</a></li>
+                    <li class="menu-item"><a href="#">CATEGORY 2</a></li>
+                    <li class="menu-item"><a href="#">CATEGORY 3</a></li>
+                    <li class="menu-item"><a href="#">CATEGORY 4</a></li>
+                  </ul>
+                </li>
+
+                <li class="menu-item">
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <div class="fa-telegram">
+        <h1>About Us</h1>
+ 
+        <div>
+        </div>
+      </div>
+    </header>
+    <script>
+      var slideimg = document.getElementById("slideimg");
+      var images = new Array(
+        "images/main1.jpg",
+        "images/main2.jpg",
+        "images/main3.jpg",
+        "images/main4.jpg",
+        "images/main5.jpg",
+        "images/main6.jpg",
+        "images/main7.jpg"
+      );
+      var len = images.length;
+      var i = 0;
+      function slider() {
+        if (i > len - 1) {
+          i = 0;
+        }
+        slideimg.src = images[i];
+        i++;
+        setTimeout("slider()", 3000);
+      }
+    </script>
+    <script src="./script.js"></script>
+  </div>
+</body>
+</html>
