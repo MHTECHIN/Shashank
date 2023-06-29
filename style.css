@@ -573,12 +573,9 @@ button:hover {
     position: relative;
     justify-content: center;
     width: 100%;
-    padding: 40px 100px;
-   /* background: linear-gradient(to bottom,rgba(0,176,155,0.5), rgba(150,201,61,1)); */
-   /* background:linear-gradient(to bottom,rgba(248, 228, 118, 0.752), rgb(235, 188, 2),rgba(0,176,155,0.5), rgba(150,201,61,1));  */
-   background: url(./images/about.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+    padding: 40px 100px; 
+    background:linear-gradient(to bottom, rgba(248, 228, 118, 0.752),rgb(235, 188, 2));  
+    background-size: cover;
 
 
 }
@@ -587,11 +584,12 @@ button:hover {
     
     font-size: 2em;
     text-align: center;
-margin-left: 410px;
+    margin-left: 410px;
 }
 .contactUs .title h2
 {
-color: #fff;
+font: bold;
+color: #000000;
 font-weight: 500;
 text-align: center;
 }
