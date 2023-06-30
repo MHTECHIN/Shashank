@@ -375,6 +375,11 @@ a {
 
 .text-box h1 {
   font-size: 62px;
+  font-size: 62px;
+  color: #ffffff;
+  text-shadow: 0 0 5px #f9e549, 0 0 10px #e4f373,
+           0 0 20px #ccc44f, 0 0 30px #f2f285,
+           0 0 40px #e9f76d;
 }
 
 .text-box p {
