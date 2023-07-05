@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,7 +50,6 @@
                   <ul class="sub-menu">
                     <li class="menu-item"><a href="goldP.html">GOLD</a></li>
                     <li class="menu-item"><a href="#">PURE Silver</a></li>
-                    <li class="menu-item"><a href="#">Regular Silver</a></li>
                   </ul>
                 </li>
 
@@ -59,9 +57,10 @@
                   <a href="#section4">CONTACT</a>
                 </li>
               </ul>
-              <div class="search">
-                <form action="" class="searchBar">
-                  <input type="text" placeholder="Search Products" name="q">
+              <div class="search1">
+                <form  class="searchBar">
+                  <input type="text" id="search-items" placeholder="Search Products" name=""
+                  onkeyup="search()">
                   <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
               </div>
@@ -109,6 +108,7 @@
       }
     </script>
     <script src="./script.js"></script>
+    
   </div>
 </section>
 
@@ -116,7 +116,7 @@
   <!--product Section -->
   <section id="section2">
   <section class="products">
-    <div class="all-products">
+    <div class="all-products" id="all-products">
       <div class="product">
         <img src="images/Gold.jpg">
         <div class="product-info">
@@ -128,19 +128,12 @@
       <div class="product">
         <img src="images/Pure Silver.jpg">
         <div class="product-info">
-          <h4 class="product-title">PURE SILVER</h4>
+          <h4 class="product-title"> SILVER</h4>
           <a class="product-btn" href="#">VIEW Products</a>
 
         </div>
       </div>
-      <div class="product">
-        <img src="images/Regular-Silver.jpg">
-        <div class="product-info">
-          <h4 class="product-title">REGULAR SILVER</h4>
-          <a class="product-btn" href="#">VIEW Products</a>
-
-        </div>
-      </div>
+      
     </div>
   </section>
 </section>
@@ -227,11 +220,11 @@
           <div class="infobox">
             <div>
               <span> <ion-icon name="pin"></ion-icon></span>
-              <p>Gaytri Jwellers, Sambhajinagar, Maharashtra</p>
+              <p>Gaytri Jewellers, Sambhajinagar, Maharashtra</p>
             </div>
             <div>
               <span> <ion-icon name="mail"></ion-icon></span>
-              <a href="mailto:gayatrijwellers@gmail.com">gayatrijwellers@gmail.com</a>
+              <a href="mailto:gayatrijewellers@gmail.com">gayatrijewellers@gmail.com</a>
             </div>
             <div>
               <span> <ion-icon name="call"></ion-icon></span>
@@ -264,7 +257,7 @@
       <div class="col">
         <img src="./images/logo.png" alt="" class="logo">
         <p class="info">
-          Gayatri Jwellars passionate about offering the highest quality of service and our wealth of knowledge
+          Gayatri Jewellers passionate about offering the highest quality of service and our wealth of knowledge
           guarantees you and your precious jewellery will be exceptionally cared for.
         </p>
       </div>
@@ -300,12 +293,10 @@
       </div>
     </div>
     <hr>
-    <p class="copyright"> Gayatri Jwellars &#169; 2023 -All rights reserved</p>
+    <p class="copyright"> Gayatri Jewellers &#169; 2023 -All rights reserved</p>
   </footer>
 </div>
     </div>
-
-
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
