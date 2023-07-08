@@ -7,36 +7,12 @@
     <link rel="stylesheet" href="./productStyle.css" />
   </head>
   <body onload="loaderDone()">
-     <div id="google_elemet"></div>
-    <script src="http:translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
-    <script >
-      function loadGoogleTranslate(){
-        new google.translate.TranslateElement(
-          "google_element")
-      }
-    </script>
 
-    <div class="container">
-      <h1>Product Page</h1>
-        <header class="header">
+      <header class="header">
         <div class="container">
           <div class="header-main">
             <div class="logo">
               <a href="index.html"> <img src="./images/logo6.png" alt="" /></a>
-            </div>             
-               <div class="search1">
-              <form class="searchBar">
-                <input
-                  type="text"
-                  id="search-items"
-                  placeholder="Search Products"
-                  name=""
-                  onkeyup="search()"
-                />
-                <button type="submit">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </form>
             </div>
 
             <div class="open-nav-menu">
@@ -73,15 +49,32 @@
                     <a href="#section4">CONTACT</a>
                   </li>
                 </ul>
-
+               
               </div>
             </nav>
           </div>
         </div>
+
+    <div class="container">
+      <h1>Product Page</h1>
+      <div class="search1">
+        <form class="searchBar">
+          <input
+            type="text"
+            id="search-items"
+            placeholder="Search Products"
+            name=""
+            onkeyup="search()"
+          />
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
       <div class="product-list" id="all-products">
         <div class="product">
           <div class="product-image">
-            <img src="images/Gold.jpg" alt="Product Image 1" />
+            <img src="images/web1.png" alt="Product Image 1" />
           </div>
           <h2 class="product-title">HAR</h2>
           <p class="product-price">₹1999</p>
@@ -92,7 +85,7 @@
         </div>
         <div class="product">
           <div class="product-image">
-            <img src="images/Gold.jpg" alt="Product Image 2" />
+            <img src="images/web2.jpg" alt="Product Image 2" />
           </div>
           <h2 class="product-title">Product 2</h2>
           <p class="product-price">₹2499</p>
@@ -103,7 +96,7 @@
         </div>
         <div class="product">
           <div class="product-image">
-            <img src="images/Gold.jpg" alt="Product Image 3" />
+            <img src="images/web1.png" alt="Product Image 3" />
           </div>
           <h2 class="product-title">Product 3</h2>
           <p class="product-price">₹2999</p>
