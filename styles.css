@@ -472,7 +472,6 @@ button:hover {
   background-image: url("images/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
 }
 .contactUs .title {
   font-size: 2em;
