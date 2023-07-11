@@ -11,7 +11,6 @@ body {
   background: #f0faff;
 }
 
-
 .my-nav {
   position: fixed;
   top: 0;
@@ -48,12 +47,12 @@ a {
 
 .my-nav .nav-links a {
   transition: all 0.2s linear;
-  margin-right: 10px; 
-  color: #fff; 
+  margin-right: 10px;
+  color: #fff;
 }
 
 .my-nav .nav-links a:hover {
-  color: gold; 
+  color: gold;
 }
 
 .my-nav.open-search .nav-links a {
@@ -521,6 +520,9 @@ button:hover {
   margin-bottom: 10px;
 }
 @media (max-width: 700px) {
+  .contactUs {
+    overflow: hidden;
+  }
   .contactUs .title {
     font-size: 12px;
     text-align: center;
